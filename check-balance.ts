@@ -7,7 +7,7 @@ if (!suppliedPublicKey) {
 
 const publicKey = new PublicKey(suppliedPublicKey);
 const connection = new Connection(
-  "https://api.mainnet-beta.solana.com",
+  "https://api.devnet.solana.com",
   "confirmed"
 );
 const balanceInLamports = await connection.getBalance(publicKey);
