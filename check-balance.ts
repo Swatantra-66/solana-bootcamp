@@ -6,10 +6,7 @@ if (!suppliedPublicKey) {
 }
 
 const publicKey = new PublicKey(suppliedPublicKey);
-const connection = new Connection(
-  "https://api.mainnet-beta.solana.com",
-  "confirmed"
-);
+const connection = new Connection("https://api.devnet.solana.com", "confirmed");
 const balanceInLamports = await connection.getBalance(publicKey);
 const balanceInSol = balanceInLamports / LAMPORTS_PER_SOL;
 
