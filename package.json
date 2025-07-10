@@ -12,7 +12,9 @@
   "dependencies": {
     "@solana-developers/helpers": "^2.8.1",
     "@solana/web3.js": "^1.98.2",
-    "esrun": "^3.2.30",
+    "esrun": "^3.2.30"
+  },
+  "devDependencies": {
     "typescript": "^5.8.3"
   }
 }

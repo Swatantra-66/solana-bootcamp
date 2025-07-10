@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Use latest JS features
+    "module": "es2022", // Use ESM module style
+    "moduleResolution": "node", // Works with most environments
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}
